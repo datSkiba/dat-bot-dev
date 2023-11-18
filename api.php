@@ -3,7 +3,7 @@
 
 function fetchWeeklyRotations() {
     $api_url = 'https://www.bungie.net/Platform/Destiny2/Milestones/';
-    $api_key = 'f4fd3dff25e44da5a02d2768a2b5dad9';
+    $api_key = 'xxxxxxxxx';
 
     $response = wp_safe_remote_get($api_url, [
         'headers' => [
